@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { MyProvider } from "@/context";
 import Head from "next/head";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "shorX",
